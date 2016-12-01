@@ -53,7 +53,6 @@ h2 {
 }
 
 .animals{
-  background:url(../assets/ANIMALS.pdf);
   width: 11em;
   height: 11em;
 }
@@ -64,7 +63,6 @@ h2 {
 }
 
 .food{
-  background:url(../assets/FOOD.pdf);
   width: 11em;
   height: 11em;
 }
@@ -75,7 +73,6 @@ h2 {
 }
 
 .howto{
-  background:url(../assets/HOWTO.pdf);
   width: 11em;
   height: 11em;
 }
@@ -86,7 +83,6 @@ h2 {
 }
 
 .lifestyle{
-  background:url(../assets/LIFESTYLE.pdf);
   width: 11em;
   height: 11em;
 }
@@ -97,7 +93,6 @@ h2 {
 }
 
 .plants{
-  background:url(../assets/PLANTS.pdf);
   width: 11em;
   height: 11em;
 }
@@ -108,7 +103,6 @@ h2 {
 }
 
 .technology{
-  background:url(../assets/TECHNOLOGY.pdf);
   width: 11em;
   height: 11em;
 }
@@ -190,6 +184,25 @@ footer {
 }
 
 /*media queries starting here*/
+@media only screen and (min-width: 1000px) and (max-width: 1400px){
+    .icons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100%;
+    height: 100px;
+    margin-top: 100px; /*edit here for margin on header*/
+    margin-bottom: 5%;
+    }
+    
+    .animals, .food, .howto, .lifestyle, .plants, .technology {
+    width: 16%;
+    height: 8em;
+    }
+}
+    
 
 @media only screen and (max-width: 1000px){
     .icons{
@@ -198,15 +211,14 @@ footer {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    max-width: 100%;
+    height: 100px;
     margin-top: 100px; /*edit here for margin on header*/
-    padding-bottom: 10em;
+    margin-bottom: 45%;
     }
     
     .animals, .food, .howto, .lifestyle, .plants, .technology {
-    width: 50%;
-    }
-    
-    h6 {
-        width: 100%;
+    width: 32%;
+    height: 10em;
     }
 }
