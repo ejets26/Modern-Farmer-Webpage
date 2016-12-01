@@ -58,64 +58,24 @@ h2 {
   height: 11em;
 }
 
-.animals:hover{
-  background-color: saddlebrown;
-  opacity: 0.5;
-}
-
-.food{
-  background:url(../assets/FOOD.pdf);
-  width: 11em;
-  height: 11em;
-}
-
-.food:hover{
-  background-color: saddlebrown;
-  opacity: 0.5;
-}
-
-.howto{
-  background:url(../assets/HOWTO.pdf);
-  width: 11em;
-  height: 11em;
-}
-
-.howto:hover{
-  background-color: saddlebrown;
-  opacity: 0.5;
-}
-
-.lifestyle{
-  background:url(../assets/LIFESTYLE.pdf);
-  width: 11em;
-  height: 11em;
-}
-
-.lifestyle:hover{
-  background-color: saddlebrown;
-  opacity: 0.5;
-}
-
-.plants{
-  background:url(../assets/PLANTS.pdf);
-  width: 11em;
-  height: 11em;
-}
-
-.plants:hover{
-  background-color: saddlebrown;
-  opacity: 0.5;
-}
-
-.technology{
-  background:url(../assets/TECHNOLOGY.pdf);
-  width: 11em;
-  height: 11em;
-}
-
+.animals:hover,
+.food:hover,
+.howto:hover,
+.lifestyle:hover,
+.plants:hover,
 .technology:hover{
   background-color: saddlebrown;
   opacity: 0.5;
+}
+
+.food,
+.howto,
+.lifestyle,
+.plants,
+.technology,
+{
+  width: 11em;
+  height: 11em;
 }
 
 .content {
