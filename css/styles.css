@@ -183,10 +183,47 @@ h2 {
     flex-wrap: wrap;
 }
 
-footer {
-    background: #000;
+/* Footer */
+.footerBar {
+    position: fixed;
+    display: flex;
     width: 100%;
-    padding: 6em;
+    height: 5%;
+    bottom: 0%;
+    background-color: aqua;
+    z-index: 1;
+    justify-content:space-between;
+    flex-direction: row;
+    border: 1px black solid;
+    border-bottom: 0px;
+}
+/* Styling of the <a> tags in footer */
+.footerBar a{
+    text-decoration: none;
+    color: black;
+    background-color:white;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    padding: 1em;
+    padding-top:0px;
+    
+}
+/* Footer styling for flex Option A */
+#footerA {
+    display: flex;
+    flex-grow: 1;
+    
+}
+/* Footer styling for flex Option B */
+#footerB {
+    display: flex;
+    flex-grow: 2;
+}
+
+.footerBar a:hover{
+    text-decoration: none;
+    color: white;
+     background-color: saddlebrown;
 }
 
 /*media queries starting here*/
